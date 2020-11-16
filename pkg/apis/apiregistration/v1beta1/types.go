@@ -138,6 +138,7 @@ type APIServiceStatus struct {
 // +genclient
 // +genclient:nonNamespaced
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
+// +kubebuilder:storageversion
 
 // APIService represents a server for a particular GroupVersion.
 // Name must be "version.group".
