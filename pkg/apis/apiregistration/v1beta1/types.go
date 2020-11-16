@@ -147,6 +147,7 @@ type APIServiceStatus struct {
 // +k8s:prerelease-lifecycle-gen:introduced=1.7
 // +k8s:prerelease-lifecycle-gen:deprecated=1.19
 // +k8s:prerelease-lifecycle-gen:replacement=apiregistration.k8s.io,v1,APIService
+// +kubebuilder:storageversion
 
 // APIService represents a server for a particular GroupVersion.
 // Name must be "version.group".
