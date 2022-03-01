@@ -63,7 +63,7 @@ manifests: gen-crds
 gen: manifests
 
 .PHONY: verify
-verify: verify-modules verify-gen
+verify: verify-gen verify-modules
 
 .PHONY: verify-modules
 verify-modules:
